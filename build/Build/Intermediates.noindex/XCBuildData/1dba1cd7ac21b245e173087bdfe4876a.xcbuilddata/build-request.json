@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "0ca652e346ff9613317036eaa3bf31a63c2cc443ef5c61da448368225a68a10f"
+    }
+  ],
+  "containerPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/KnockApp.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Products",
+      "derivedDataPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build",
+      "indexDataStoreFolderPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

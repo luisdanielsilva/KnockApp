@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Products/Release/KnockApp.app/Contents/MacOS/KnockApp'
+relocations:     []
+...

@@ -1,0 +1,26 @@
+{
+  "" : {
+    "const-values" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.d",
+    "diagnostics" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.dia",
+    "emit-module-dependencies" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary-emit-module.dia",
+    "pch" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.swiftdeps"
+  },
+  "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/KnockApp/KnockApp/KnockApp.swift" : {
+    "index-unit-output-path" : "/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.o",
+    "llvm-bc" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.bc",
+    "object" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.o"
+  },
+  "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/KnockApp/KnockApp/KnockDetector.swift" : {
+    "index-unit-output-path" : "/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockDetector.o",
+    "llvm-bc" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockDetector.bc",
+    "object" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockDetector.o"
+  },
+  "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

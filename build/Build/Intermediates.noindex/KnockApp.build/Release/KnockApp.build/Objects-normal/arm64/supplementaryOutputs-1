@@ -1,0 +1,12 @@
+{
+  "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/KnockApp/KnockApp/KnockApp.swift" : {
+    "abi-baseline-json" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.abi.json",
+    "const-values" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.d",
+    "diagnostics" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-primary.dia",
+    "objc-header" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp-Swift.h",
+    "swiftdoc" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.swiftdoc",
+    "swiftmodule" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.swiftmodule",
+    "swiftsourceinfo" : "/Users/luissilva/.gemini/antigravity/scratch/KnockApp/KnockApp/build/Build/Intermediates.noindex/KnockApp.build/Release/KnockApp.build/Objects-normal/arm64/KnockApp.swiftsourceinfo"
+  }
+}
