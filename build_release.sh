@@ -40,8 +40,33 @@ if [ -d "$SOURCE_APP" ]; then
     echo "--------------------------------------------------"
     echo "🎉 READY FOR RELEASE!"
     echo "Location: $DIST_DIR/$APP_NAME.app"
-    echo "Zip for GitHub: $DIST_DIR/$APP_NAME-macOS.zip"
+    echo "Zip for GitHub: $DIST_DIR/knockapp.zip"
     echo "--------------------------------------------------"
+
+    # --- NEW: Automated GitHub Release Upload (Robust Version) ---
+    if command -v /opt/homebrew/bin/gh &> /dev/null; then
+        echo "🚀 Preparing GitHub Release..."
+        
+        # 1. Try to find the latest release tag
+        LATEST_TAG=$(/opt/homebrew/bin/gh release list --limit 1 --json tagName --jq '.[0].tagName' 2>/dev/null)
+        
+        if [ -z "$LATEST_TAG" ]; then
+            LATEST_TAG="v1.0.0"
+            echo "ℹ️  No release found. Creating a new one: $LATEST_TAG"
+            /opt/homebrew/bin/gh release create "$LATEST_TAG" --title "KnockApp $LATEST_TAG" --notes "Automated build and release."
+        fi
+
+        echo "📦 Uploading knockapp.zip to release $LATEST_TAG..."
+        /opt/homebrew/bin/gh release upload "$LATEST_TAG" "$DIST_DIR/knockapp.zip" --clobber
+        
+        if [ $? -eq 0 ]; then
+            echo "✅ Upload Successful to $LATEST_TAG!"
+        else
+            echo "⚠️  Upload failed. Ensure you are logged in using 'gh auth login' and have repo permissions."
+        fi
+    else
+        echo "ℹ️  GitHub CLI (gh) not found at /opt/homebrew/bin/gh. Skipping automated upload."
+    fi
 else
     echo "❌ Error: Could not find the built .app. Please check if the Scheme name is '$APP_NAME'."
 fi
